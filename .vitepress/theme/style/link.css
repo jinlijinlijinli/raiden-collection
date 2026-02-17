@@ -1,0 +1,202 @@
+/* YouTube */
+.vp-doc a[href^="https://www.youtube.com/"]:before {
+    content: '';
+    background-image: url(/public/svg/youtube.svg);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-size: cover;
+    margin-right: 4px;
+}
+
+/* 哔哩哔哩 */
+.vp-doc a[href^="https://www.bilibili.com/"]:before,
+.vp-doc a[href^="https://t.bilibili.com/"]:before {
+    content: '';
+    background-image: url(/public/svg/哔哩哔哩.svg);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-size: cover;
+    top: -2px;
+    margin-right: 4px;
+}
+
+/* 米游社 */
+.vp-doc a[href^="https://www.miyoushe.com/"]:before {
+    content: '';
+    background-image: url(/public/svg/米游社.png);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-size: cover;
+    top: -2px;
+    margin-right: 4px;
+}
+
+/* 米游社 */
+.vp-doc a[href^="https://baike.mihoyo.com/"]:before {
+    content: '';
+    background-image: url(/public/svg/米游社.png);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-size: cover;
+    top: -2px;
+    margin-right: 4px;
+}
+
+/* genshin */
+.vp-doc a[href^="https://webstatic.mihoyo.com/"]:before {
+    content: '';
+    background-image: url(/public/svg/genshin.webp);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-size: cover;
+    top: -2px;
+    margin-right: 4px;
+}
+
+/* genshin */
+.vp-doc a[href^="https://genshin.hoyoverse.com/"]:before {
+    content: '';
+    background-image: url(/public/svg/genshin.webp);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-size: cover;
+    top: -2px;
+    margin-right: 4px;
+}
+
+/* genshin */
+.vp-doc a[href^="https://act.hoyoverse.com/"]:before {
+    content: '';
+    background-image: url(/public/svg/genshin.webp);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-size: cover;
+    top: -2px;
+    margin-right: 4px;
+}
+
+/* genshin */
+.vp-doc a[href^="https://ys.mihoyo.com/"]:before {
+    content: '';
+    background-image: url(/public/svg/genshin.webp);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-size: cover;
+    top: -2px;
+    margin-right: 4px;
+}
+
+
+
+
+
+/* App Store */
+.vp-doc a[href^="https://apps.apple.com/"]:before {
+    content: '';
+    background-image: url(/public/svg/AppStore.png);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-size: cover;
+    top: -2px;
+    margin-right: 4px;
+}
+
+/* X */
+.vp-doc a[href^="https://x.com/"]:before {
+    content: '';
+    background-image: url(/public/svg/X.webp);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-size: cover;
+    top: -2px;
+    margin-right: 4px;
+}
+
+
+/* hoyolab */
+.vp-doc a[href^="https://www.hoyolab.com/"]:before {
+    content: '';
+    background-image: url(/public/svg/hoyolab.webp);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-size: cover;
+    top: -2px;
+    margin-right: 4px;
+}
+
+/* 百度网盘 */
+.vp-doc a[href^="https://pan.baidu.com/"]:before {
+    content: '';
+    background-image: url(/public/svg/BaiduNetdisk.webp);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-size: cover;
+    top: -2px;
+    margin-right: 4px;
+}
+
+/* lofter */
+.vp-doc a[href^="https://naginata0626.lofter.com/"]:before {
+    content: '';
+    background-image: url(/public/svg/LOFTER.svg);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-size: cover;
+    top: -2px;
+    margin-right: 4px;
+}
+
+/* nga */
+.vp-doc a[href^="https://bbs.nga.cn/read.php?tid=28923102&fav=b66f0607"]:before {
+    content: '';
+    background-image: url(/public/svg/nga.webp);
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    background-size: cover;
+    top: -2px;
+    margin-right: 4px;
+}
+
+
