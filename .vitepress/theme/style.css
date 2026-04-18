@@ -3,6 +3,10 @@
 @import '../theme/style/blockquote.css';
 @import '../theme/style/hidden.css';
 @import '../theme/style/link.css';
+/* style/index.css */
+
+
+
 
 :root {
   --vp-c-default-1: var(--vp-c-gray-1);
@@ -94,4 +98,85 @@
 .VPHome .VPHero .VPButton.brand:hover {
   background-color: #8652e6;
   border-color: #8652e6;
+}
+
+
+
+/* 主页选项卡飘动动画 */
+.VPFeatures .items .item {
+    transition: transform .3s;
+}
+
+.VPFeatures .items .item:hover {
+    transform: translateY(-5px);
+}
+
+
+
+
+
+
+
+/* hero 标题渐变动画 */
+
+:root {
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(120deg,
+            #a569ff 30%,
+            #6f42c1);
+
+    --vp-home-hero-image-background-image: linear-gradient(-45deg,
+            #a569ff 50%,
+            #6f42c1 50%);
+    --vp-home-hero-image-filter: blur(40px);
+}
+
+
+.VPHero .clip {
+  background: linear-gradient(
+    120deg,
+    #8a27ec,
+    #8f33ee,
+    #9941f1,
+    #a86af6,
+    #b889fa,
+    #d4a8ff,
+    #b889fa,
+    #a86af6,
+    #9941f1,
+    #8f33ee,
+    #8a27ec
+  );
+
+  background-size: 250% 100%;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: raidenHeroGradient 12s linear infinite;
+}
+
+@keyframes raidenHeroGradient {
+
+  0% {
+    background-position: 0% 50%;
+  }
+
+  25% {
+    background-position: 50% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  75% {
+    background-position: 50% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+
 }

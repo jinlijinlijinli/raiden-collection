@@ -10,8 +10,11 @@ import { useRoute } from 'vitepress'
 import giscusTalk from 'vitepress-plugin-comment-with-giscus'
 import { useData } from 'vitepress'  // 保留这个导入，其他地方需要用到 useData
 import backtotop from "./components/backtotop.vue";
-
-
+import GradientText from './components/GradientText.vue'
+import './style/blur.css'
+import './style/sidebarIcon.css';
+/* .vitepress/theme/style/index.css */
+import './style/marker.css';
 
 /** @type {import('vitepress').Theme} */
 export default {
@@ -19,7 +22,9 @@ export default {
   enhanceApp({ app }) {
     // 注册全局组件
     app.component('AudioPlayer', AudioPlayer)
+    app.component('GradientText', GradientText)
   },
+
 
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
